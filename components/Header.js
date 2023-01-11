@@ -12,7 +12,7 @@ function Header() {
     //items-center -> vertical
     <header className="flex flex-col sm:flex-row m-5 justify-between items-center">
       {/* max-w-2xl -> limiting the width otherwise thales the whole width */}
-      <div className='flex flex-grow justify-evenly max-w-2xl '>
+      <div className='flex flex-grow justify-evenly max-w-2xl'>
         <HeaderItem
           title="HOME"
           Icon={HomeIcon}

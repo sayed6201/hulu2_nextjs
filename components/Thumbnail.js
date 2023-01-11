@@ -5,13 +5,11 @@ import { forwardRef } from 'react'
 
 const Thumbnail = forwardRef(({result}, ref) => {
   const BASE_URL = "https://image.tmdb.org/t/p/w500/";
-  console.log(`backdrop_path: ${result.backdrop_path}`)
-  console.log(`poster_path: ${result.poster_path}`)
-  console.log(`mama: ${BASE_URL}${result.backdrop_path}`)
-  console.log(`mama2: ${BASE_URL}${result.backdrop_path || result.poster_path }`)
-  console.log(`mama3: ${BASE_URL}${result.poster_path}`)
-
-
+  // console.log(`backdrop_path: ${result.backdrop_path}`)
+  // console.log(`poster_path: ${result.poster_path}`)
+  // console.log(`mama: ${BASE_URL}${result.backdrop_path}`)
+  // console.log(`mama2: ${BASE_URL}${result.backdrop_path || result.poster_path }`)
+  // console.log(`mama3: ${BASE_URL}${result.poster_path}`)
 
   return (
     <div 
