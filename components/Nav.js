@@ -11,7 +11,7 @@ function Nav() {
         text-2xl -> increases text size
         space-x-10 -> spcaes
         overflow-x-scroll -> overflow text gets scoll but adds a scrollable bar
-        scrollbar-hide -> hides scrollbar
+        scrollbar-hide -> hides scrollbar, you haveto install it
         */}
         <div className='flex justify-between px-10 sm:px-20 text-2xl 
         whitespace-nowrap space-x-10 sm:space-x-20 overflow-x-scroll scrollbar-hide'>

@@ -5,10 +5,11 @@ import { CheckCircleIcon, CheckIcon, CollectionIcon, FireIcon, HomeIcon, SearchI
 
 function Header() {
   return (
+    //we are following mobile first design, flex-col when it goes above sm then flex-row
     // flex-col -> contents will be placed in one colmn
     //flex -> contents will 
     //justify-between -> horizontal spacing
-    //items-center ->
+    //items-center -> vertical
     <header className="flex flex-col sm:flex-row m-5 justify-between items-center">
       {/* max-w-2xl -> limiting the width otherwise thales the whole width */}
       <div className='flex flex-grow justify-evenly max-w-2xl '>
